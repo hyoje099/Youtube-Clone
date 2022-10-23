@@ -1,1 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.header{
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+}
+.main{
+    background-color: blue;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+body{
+    margin: 0;
+}
+.header-left{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.header-mid{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+.header-right .material-icons{
+    margin-left: 5px;
+}
+.header input{
+    width: 560px;
+}
+.header-mid form{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.header-mid button{
+    height: 100%;
+    border: none;
+}
+.sidebar{
+    background-color: green;
+    width: 230px;
+}
+.video{
+    background-color: yellow;
+    width: 100%;
+}
+.sidebar-categories{
+    width:100%;
+}
+.sidebar-categories{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+}
+.sidebar-categories.material-icons{
+    margin-right: 15px ;
+}
