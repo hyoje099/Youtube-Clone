@@ -68,3 +68,39 @@ body{
 .sidebar-categories.material-icons{
     margin-right: 15px ;
 }
+
+.video-thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+.channel img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.video-detail{
+    display: flex;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.description h3{
+    margin: 0;
+    margin-bottom: 6px;
+}
+.video-thumbnail{
+
+}
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.video{
+    margin: 15px;
+}
+.videos{
+    width: 100%;
+    overflow: scroll;
+}
